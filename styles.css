@@ -1,0 +1,22 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 5px;
+}
+/* margin gives space between */
+
+.special {
+  background-color: red;
+  border: 1px solid blue;
+}
+/* WHEN YOU HAVE FLEXBOX USE A PARENT ELEMENT */
+
+#respond {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-height: 600px;
+  flex-wrap: wrap;
+}
